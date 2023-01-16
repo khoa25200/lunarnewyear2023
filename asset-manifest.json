@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa1c52d6.css",
+    "main.js": "/static/js/main.cae4a084.js",
+    "static/js/787.12339f04.chunk.js": "/static/js/787.12339f04.chunk.js",
+    "static/media/2023_0.svg": "/static/media/2023_0.da882ea0280d0d7bf54a680b6ca27bf3.svg",
+    "static/media/2023_3.svg": "/static/media/2023_3.4c7f75c2585c9c9fcb1b0d8035fd3413.svg",
+    "static/media/2023_21.svg": "/static/media/2023_21.0ca7b5393229824785b9ad827847429c.svg",
+    "static/media/2023_22.svg": "/static/media/2023_22.9719fdb11977efc39eaac311f432a8c6.svg",
+    "static/media/5y_68o34cqvdhin8b9g68 [Converted].png": "/static/media/5y_68o34cqvdhin8b9g68 [Converted].87a28776133b56f3337e.png",
+    "static/media/texttrangtri.svg": "/static/media/texttrangtri.d05f319ee7addcbcf47e5ca3088a67e4.svg",
+    "static/media/new-years-day-2023-3-law.gif": "/static/media/new-years-day-2023-6753651837109566.3-law.f3683d0207612850e5f7.gif",
+    "static/media/buivang.svg": "/static/media/buivang.38256350a19851c90321d8ff0769bbef.svg",
+    "static/media/body.png": "/static/media/body.7626cf99ff9a35c4b5a1.png",
+    "static/media/Flower-03.png": "/static/media/Flower-03.ce7ced4dff62f701ec45.png",
+    "static/media/tai.png": "/static/media/tai.8d2bec40010f411538b7.png",
+    "static/media/bling.svg": "/static/media/bling.f6448be63ff0c4513e5810c65b420ca6.svg",
+    "static/media/trangtri2023.svg": "/static/media/trangtri2023.dcdd681502e1cf30e0fb232e6bb15fb7.svg",
+    "index.html": "/index.html",
+    "main.fa1c52d6.css.map": "/static/css/main.fa1c52d6.css.map",
+    "main.cae4a084.js.map": "/static/js/main.cae4a084.js.map",
+    "787.12339f04.chunk.js.map": "/static/js/787.12339f04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa1c52d6.css",
+    "static/js/main.cae4a084.js"
+  ]
+}
