@@ -91,7 +91,8 @@ function Intro() {
                                     <img src={images.lanterns} alt />
                                 </div>
                             </div>
-                            *Made by Khoa
+                            <br />
+                            <span>*Made by Khoa</span>
                         </div>
                         <div className={cx('slider-img6')}>
                             <img src={images.cloud_red1} alt />

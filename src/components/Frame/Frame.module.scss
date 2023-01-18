@@ -20,30 +20,30 @@
     }
     .box-texture_clouds {
         position: absolute;
-        bottom: 0;
+        top: 0;
         left: 0;
         width: 100%
     }
     .texture_clouds1:nth-child(1) {
         position: absolute;
-        width: 120px;
+        width: 80px;
         animation: textureClouds1 60s infinite linear;
     }
 
     .texture_clouds1 img {
-        width: 120px;
+        width: 90px;
     }
     .texture_clouds1:nth-child(2) {
         position: absolute;
         /* top: 320px;
         left: 280px; */
-        width: 130px;
+        width: 50px;
         z-index:90;
         animation: textureClouds2 30s infinite linear;
     }
 
     .texture_clouds1:nth-child(2) img {
-        width: 170px;
+        width: 100px;
     }
     .texture_clouds1:nth-child(3) {
         position: absolute;
@@ -60,12 +60,12 @@
         position: absolute;
         /* top: 260px;
         right: 250px; */
-        width: 180px;
+        width: 75px;
         z-index: 10;
         animation: textureClouds4 20s infinite linear;
     }
     .texture_clouds1:nth-child(4) img {
-        width: 180px;
+        width: 90px;
     }
     .texture_clouds1:nth-child(5) {
         position: absolute;
