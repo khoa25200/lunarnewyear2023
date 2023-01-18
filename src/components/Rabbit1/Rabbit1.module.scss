@@ -3,7 +3,7 @@
     opacity: 1;
     transition: all 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     position: relative;
-    width: 160px;
+    width: 140px;
     img {
         max-width: 100%;
         margin: 0 auto;
@@ -14,8 +14,9 @@
     }
     :last-child {
         position: absolute;
-        top: 0;
-        width: 50%;
+        top: 65px;
+        width: 45%;
+        height: 38%;
         -webkit-transform: translate(75%, 5%);
         transform: translate(75%, 5%);
         -webkit-transform-origin: left;

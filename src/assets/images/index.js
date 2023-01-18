@@ -15,7 +15,7 @@ const images = {
     apricot_blossom: require('~/assets/images/apricot-blossom.png'),
     background: require('~/assets/images/background.jpg'),
     background1: require('~/assets/images/background1.jpg'),
-    bg1: require('~/assets/images/bg1.jpg'),
+    bg1: require('~/assets/images/bg1.png'),
     bgrjfif: require('~/assets/images/bgr.jfif').default,
     bgr: require('~/assets/images/bgr.png'),
     circular_pattern: require('~/assets/images/circular-pattern.png'),
