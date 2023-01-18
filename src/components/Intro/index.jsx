@@ -7,7 +7,7 @@ function Intro() {
     return (
         <div className={cx('Intro')}>
             <div>
-            <div className={cx('box-slider')}>
+                <div className={cx('box-slider')}>
                     <div className={cx('slider1')}>
                         <img src={images.bgr} alt />
                         <div className={cx('happynewyear')}>
@@ -119,7 +119,6 @@ function Intro() {
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                     {/* <div className={cx('slider2')}>
                         <div className={cx('rhombus')}>
