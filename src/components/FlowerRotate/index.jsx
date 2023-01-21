@@ -5,7 +5,7 @@ const cx = classNames.bind(styles);
 function FlowerRotate() {
     return (
         <div className={cx('flower-rotate')}>
-           <img src={images.flower} alt="error-img" />
+           <img src={images.flower_03} alt="error-img" />
         </div>
     );
 }

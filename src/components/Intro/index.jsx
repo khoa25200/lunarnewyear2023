@@ -1,12 +1,17 @@
+/* eslint-disable jsx-a11y/alt-text */
 import classNames from 'classnames/bind';
 import styles from './Intro.module.scss';
 import images from '~/assets/images';
 import { useState } from 'react';
 import Rabbit1 from './../Rabbit1/index';
+import TinhYeu from './../TinhYeu/index';
 const cx = classNames.bind(styles);
 
 function Intro() {
     const [isActiveSlide3, setIsActiveSlide3] = useState(false);
+    const handleActiveSlide3 = () => {
+        setIsActiveSlide3((current) => !current);
+    }
     return (
         <div className={cx('Intro')}>
             <div>
@@ -29,16 +34,6 @@ function Intro() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className={cx('box-button')}>
-                            <div className={cx('button')} onClick={()=>{
-                                setIsActiveSlide3((current) => !current);
-                            }}>
-                                <button>Ấn vào đây nè!</button>
-                                <span>
-                                    <i className={cx('fa-solid fa-heart')} />
-                                </span>
-                            </div>
-                        </div> */}
                         <div className={cx('box-slider_img1')}>
                             <div className={cx('slider-img1')}>
                                 <img src={images.circular_pattern} alt />
@@ -91,25 +86,14 @@ function Intro() {
                                     <img src={images.lanterns} alt />
                                 </div>
                             </div>
-                            <br />
-                            <span>*Made by Khoa</span>
                         </div>
                         <div className={cx('slider-img6')}>
                             <img src={images.cloud_red1} alt />
                             <img src={images.cloud_red2} alt />
                             <img src={images.cloud_red2} alt />
                         </div>
-                        {/* <div className={cx('box-lion_dance">
-                            <div className={cx('lion_dance1">
-                                <img src={images.Lion_dance} alt />
-                            </div>
-                            <div className={cx('lion_dance2">
-                                <img src={images.Lion_dance2} alt />
-                            </div>
-                        </div> */}
                         <div className={cx('cat')}>
                             <Rabbit1 />
-                            {/* <img src={images.cat} alt /> */}
                         </div>
                         <div className={cx('box-number')}>
                             <div className={cx('number2023')}>
@@ -128,21 +112,6 @@ function Intro() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className={cx('slider2')}>
-                        <div className={cx('rhombus')}>
-                        <div className={cx('rhombus')}>
-                        <div className={cx('rhombus-img')}>
-                        <img src={images.truongan} alt />
-                        </div>
-                        <div className={cx('mail')}>
-                            <button>
-                                <i className={cx('fa-regular fa-envelope')}>
-                            </button>
-                            <span className={cx('heart')}>
-                                <i className={cx('fa-solid fa-heart')}>
-                            </span>
-                        </div>
-                    </div> */}
                     {isActiveSlide3 && (
                         <div className={cx(`slider3`)}>
                             <div className={cx('box-content')}>
@@ -207,13 +176,10 @@ function Intro() {
                                     </div>
                                 </div>
                             </div>
-                            {/* <i className={cx('fa-solid fa-xmark')}> */}
                         </div>
                     )}
                 </div>
-                {/* <audio id="song">
-                    <source src={images.nhac.mp3} type="audio/mp3">
-                </audio> */}
+                <TinhYeu setIsActiveSlide3 = {handleActiveSlide3}/>
             </div>
         </div>
     );

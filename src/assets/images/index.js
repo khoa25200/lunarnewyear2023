@@ -1,6 +1,6 @@
 const images = {
     noImage: require('~/assets/images/new-years-day-2023-6753651837109566.3-law.gif'),
-    flower: require('~/assets/images/Flower-03.png'),
+    flower_03: require('~/assets/images/Flower-03.png'),
     earRabbit1: require('~/assets/images/rabbit/tai.png'),
     bodyRabbit1: require('~/assets/images/rabbit/body.png'),
     buiVang: require('~/assets/images/buivang.svg').default,
