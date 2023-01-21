@@ -42,3 +42,9 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #25040a;
 }
+.noSupport{
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 50px auto;
+}
