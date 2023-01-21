@@ -9,11 +9,8 @@ function TinhYeu(handleActiveSlide3) {
                             <h1>🧡Gửi em!</h1>
                         </div>
                         <p>
-                            Năm mới, anh chỉ chúc em được nhiều sức khỏe thôi. Còn về hạnh phúc và niềm vui, anh mong
-                            rằng chính mình sẽ là người mang những điều đó đến với em. Yêu em nhiều! Năm mới đến rồi,
-                            một năm qua thật đặc biệt với anh và cả em nữa. Năm mới đến đồng nghĩa với việc anh lại được
-                            nối dài năm tháng yêu thương chăm sóc em. Anh chúc em tràn đầy hạnh phúc ngọt ngào hãy gìn
-                            giữ và nuôi dưỡng tình yêu của chúng mình em nhé.
+                            Năm mới, anh chúc em được nhiều sức khỏe.
+                            Còn về hạnh phúc anh chỉ mong rằng sẽ được gặp em sớm hơn vào năm 2023. Mãi yêu vầ mong được cùng em đi khắp thế gian. Gửi em người anh mong chờ.
                         </p>
                         <div className={cx('fixedContent')}>
                             <h3>Người gửi: Đăng Khoa Nguyễn</h3>
