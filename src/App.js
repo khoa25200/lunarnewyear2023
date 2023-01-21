@@ -1,6 +1,7 @@
 import Landingpage from "./pages/LandingPage";
 import AnimationCursorCustom from './components/AniamationCursorCustom/index';
 import { useDevice } from "react-use-device";
+import Sound from 'react-sound'
 function App() {
   const { isMOBILE, isTABLET } = useDevice();
   return (
@@ -20,6 +21,9 @@ function App() {
           Please use Laptop/PC to view my website!!!
         </section>
       }
+      <Sound 
+      url='./nhac.mp3'
+      />
       <AnimationCursorCustom />
     </div>
   );
