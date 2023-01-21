@@ -5,10 +5,10 @@
         --size: 1vw;
         width: var(--size);
         height: var(--size);
-        background: #fceab5;
+        // background: #fceab5;
         border-radius: 50%;
         position: absolute;
-        filter: blur(1px);
+        // filter: blur(1px);
         top: -5vh;
     }
 }
@@ -22,12 +22,19 @@
 }
 @for $i from 1 through 50 {
     .snowflake:nth-child(#{$i}) {
-        --size: #{random(5) * 0.2}vw;
+        --size: #{random(5) * 0.3}vw;
         --left-ini: #{random(20) - 10}vw;
         --left-end: #{random(20) - 10}vw;
         left: #{random(100)}vw;
-        animation: snowfall #{5 + random(10)}s linear infinite;
+        animation: snowfall #{10 + random(10)}s linear infinite;
         animation-delay: -#{random(10)}s;
+        background-size: 100%;
+        color: transparent;
+        background-repeat: no-repeat;
+        background-image: url(./hoamai.png);
+    }
+    .snowflake.hoadao:nth-child(#{$i}) {
+        background-image: url(./hoadao.png) !important;
     }
 }
 

@@ -6,18 +6,23 @@ function SnowBgAnimation() {
         <div className={cx('snowflakes')}>
             <div className={cx('snowflake')}></div>
             <div className={cx('snowflake')}></div>
+            <div className={cx('snowflake hoadao')}></div>
+            <div className={cx('snowflake')}></div>
+            <div className={cx('snowflake')}></div>
+            <div className={cx('snowflake hoadao')}></div>
             <div className={cx('snowflake')}></div>
             <div className={cx('snowflake')}></div>
             <div className={cx('snowflake')}></div>
             <div className={cx('snowflake')}></div>
+              <div className={cx('snowflake hoadao')}></div>
             <div className={cx('snowflake')}></div>
             <div className={cx('snowflake')}></div>
+            <div className={cx('snowflake hoadao')}></div>
+            <div className={cx('snowflake')}></div>
+            <div className={cx('snowflake hoadao')}></div>
             <div className={cx('snowflake')}></div>
             <div className={cx('snowflake')}></div>
-            <div className={cx('snowflake')}></div>
-            <div className={cx('snowflake')}></div>
-            <div className={cx('snowflake')}></div>
-            <div className={cx('snowflake')}></div>
+            <div className={cx('snowflake hoadao')}></div>
             <div className={cx('snowflake')}></div>
         </div>
     );

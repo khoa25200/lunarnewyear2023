@@ -1,0 +1,63 @@
+.tinhyeu {
+    max-width: 800px;
+    margin:  0 auto;
+    .title {
+        font-family: 'Dancing Script', cursive;
+        // width: 150px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        overflow: hidden;
+        h1 {
+            margin-top: -40px;
+            transition: 0.5s;
+            animation: title 2s forwards;
+            @keyframes title {
+                0% {
+                    margin-top: -40px;
+                }
+                100% {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    p {
+        padding: 0px 15px 0px 15px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        opacity: 0;
+        transition: 1s;
+        animation: bodyContent 2s 1s forwards;
+        @keyframes bodyContent {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    .fixedContent {
+        height: 80px;
+        overflow: hidden;
+        text-align: right;
+        h3 {
+            font-size: 18px;
+            font-family: 'Dancing Script', cursive;
+            padding: 20px 0px 0px 20px;
+            margin-top: -50px;
+            animation: fixedContent 2s 2s forwards;
+        }
+    }
+}
+@keyframes fixedContent {
+    0% {
+        margin-top: -50px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
